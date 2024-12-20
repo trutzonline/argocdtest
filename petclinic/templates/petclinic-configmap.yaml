@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: petclinic-configmap
+data:
+  POSTGRES_USER: petclinic
+  POSTGRES_DB: petclinic
