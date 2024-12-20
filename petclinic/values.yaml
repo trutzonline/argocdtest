@@ -66,7 +66,7 @@ ingress:
   hosts:
     - host: cluster.trutz.io
       paths:
-        - path: /petclinic
+        - path: /pc
           pathType: Prefix
   tls: []
   #  - secretName: chart-example-tls
@@ -74,7 +74,7 @@ ingress:
   #      - chart-example.local
 
 petclinic:
-  path: "/petclinic"
+  path: "/pc"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
